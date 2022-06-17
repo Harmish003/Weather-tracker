@@ -39,7 +39,7 @@ let weather = {
     weather.search();
   });
   
-  document
+  document //for seach bar
     .querySelector(".search-bar")
     .addEventListener("keyup", function (event) {
       if (event.key == "Enter") {
