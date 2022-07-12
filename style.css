@@ -27,6 +27,21 @@ body {
     justify-content: center;
   }
   
+
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+
+button:hover {
+    background: #7c7c7c6b;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
   button {
     margin: 0.5em;
     border-radius: 50%;
@@ -53,20 +68,6 @@ body {
   }
   
   
-  
-  h1.temp {
-    margin: 0;
-    margin-bottom: 0.4em;
-  }
-
-button:hover {
-    background: #7c7c7c6b;
-  }
-
-  .flex {
-    display: flex;
-    align-items: center;
-  }
   
   .description {
     text-transform: capitalize;
